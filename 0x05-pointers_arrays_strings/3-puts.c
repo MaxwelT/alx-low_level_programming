@@ -1,12 +1,13 @@
 #include "main.h"
 
 /*
- * _puts - prints a string, followed by a new line,
- * @str: pointer to the string to print
- * Return: Always 0
+ * _puts - prints a string, followed by a new line, to stdout.
+ * @str: string to be printed
+ *
+ * Return: nothing on success
  */
 
-void _puts(char *str
+void _puts(char *str)
 {
 	int i = 0;
 
