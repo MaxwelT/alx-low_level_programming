@@ -1,15 +1,6 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-/**
- * File: main.h
- * Auth: man max
- * Description: Header file containing prototypes for all funcions
- * used in the arrays
- */
-
-#include <stdde.h>
-
 int _putchar(char c);
 char *_memset(char *s, char b, unsigned int n);
 void *_memset(void *s, int c, size_t n);
