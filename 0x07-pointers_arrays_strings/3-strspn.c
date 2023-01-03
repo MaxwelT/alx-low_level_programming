@@ -1,7 +1,8 @@
 #include "main.h"
+
 /**
- * _strspn - prints the consective characters of s1 that are in s2
- * @s: source string
+ * _strspn - prints the consecutive caracters of s1 that are in s2.
+ * @s:source string
  * @accept: searching string
  *
  * Return: new string.
@@ -14,11 +15,11 @@ unsigned int _strspn(char *s, char *accept)
 	{
 		for (i = 0; *(accept + i); i++)
 		{
-			if (*(s + j) == *((accept + i))
-					break;
+			if (*(s + j) == *(accept + i))
+				break;
 		}
 	if (*(accept + i) == '\0')
-	break;
+		break;
 	}
 	return (j);
 }
