@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * _strstr - first occurence of the substring needle in the string haystack.
  * @haystack: main str to be examined
@@ -8,7 +7,7 @@
  **/
 char *_strstr(char *haystack, char *needle)
 {
-	char *strl, *str2; /*declaring variables*/
+	char *str1, *str2; /*declaring variables*/
 
 	while (*haystack != '\0')
 	{
