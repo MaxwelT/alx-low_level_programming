@@ -4,7 +4,7 @@
  * _strstr - first occurence of the substring needle in the string haystack.
  * @haystack: main str to be examined
  * @needle: searched in the haystack
- * Return : 0
+ * Return: retrn 0
  **/
 
 char *_strstr(char *haystack, char *needle)
